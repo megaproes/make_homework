@@ -52,5 +52,5 @@ $(T2)/uper: $(T2)/uper.c $(T2_LIB)
 clean:
 	rm -f $(T1_OBJS) $(T1_LIB) $(T1_BIN) $(T2_OBJ) $(T2_LIB) $(T2_BINS)
 
-clean-all: clean
-	find . -type f \( -name '*.o' -o -name '*.a' -o -name '*.so' \) -delete
+clean-all: clean # recursively
+	find . -type f \( -name '*.o' -o -name '*.a' -o -name '*.so' \) -delete 
