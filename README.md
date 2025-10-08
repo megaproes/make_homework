@@ -53,3 +53,15 @@ sudo cp libconvert.so /usr/local/lib/ && sudo ldconfig && export LD_LIBRARY_PATH
 ./low && ./uper 
 ```
 
+## Task 3:
+```bash
+make          # build both Task1 and Task2
+make task1    # only calculator
+make task2    # only converter
+make clean
+make clean-all
+```
+For Task 2 before running choose either option A or B from above.
+
+
+
