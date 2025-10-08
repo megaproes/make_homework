@@ -1,0 +1,10 @@
+# obj / lib /bins
+*.o
+*.lo
+*.la
+*.a
+*.so*
+*.exe
+*.out
+calc
+main
