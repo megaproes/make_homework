@@ -4,7 +4,7 @@
 
 int main() {
     int choice;
-    double a, b, result;
+    double a, b;
     unsigned int n;
     unsigned long long fact_res;
 
